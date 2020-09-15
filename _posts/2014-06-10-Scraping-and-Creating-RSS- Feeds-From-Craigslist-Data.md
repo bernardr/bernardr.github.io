@@ -3,11 +3,6 @@ layout: post
 title: Scraping and Creating RSS Feeds From Craigslist Data
 ---
 
-
-# Scraping and Creating RSS Feeds From Craigslist Data
-
-June 10, 2014
-
 ## The Problem and it’s Obvious Solution
 
 It’s been said, that when all you have is a hammer everything looks like a nail. Lately, I’ve been wielding a hammer called “web scraping”, and everywhere I look I see nails in need of hammering.

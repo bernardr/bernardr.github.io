@@ -3,9 +3,6 @@ layout: post
 title:  New MapBox Version of the ACA Map
 ---
 
-# New MapBox Version of the ACA Map
-
-
 Last year, when I lived in Utah, [I slapped together a Google Map of ACA Locations](http://bernardr.com/unknown/affordable-care-act/). Back when I was working on it, I lamented my use of Google Maps. The licensing seemed too restricive for my purpose — to openly share what I felt was public information.
 
 To it’s credit, Google Maps is incredibly easy to use. Provided you’ve already GeoCoded your data, it’s as easy as uploading a `.csv`.

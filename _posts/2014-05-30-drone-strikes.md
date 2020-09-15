@@ -3,8 +3,6 @@ layout: post
 title: US Drone Strike Map
 ---
 
-# US Drone Strike Map
-
 
 ## Background
 
