@@ -1,5 +1,5 @@
 ---
-layout: Post 
+layout: post 
 title: Scraping and Creating RSS Feeds From Craigslist Data
 ---
 
