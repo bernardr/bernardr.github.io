@@ -1,6 +1,6 @@
 ---
-layout: post 
-title: FIXED: Kali 2020.2 OVA VIRTUALBOX - HASH SUM MISMATCH 
+layout: post
+title:  Kali 2021 Fix
 ---
 
 # FIXED: Kali 2020.2 OVA VIRTUALBOX - HASH SUM MISMATCH
