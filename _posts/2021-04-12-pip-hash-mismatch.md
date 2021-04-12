@@ -4,7 +4,7 @@ title: pip hash mismatches
 ---
 # PIP Hash Mismatches
 
-On occasion I've run into like the following: 
+On occasion I've run into an issue where pip complains about hash mismatches. As seen below.  
 
 ```
 └─$ sudo pip install -r requirements.txt                                                                             
@@ -27,9 +27,12 @@ lease update the hashes. Otherwise, examine the package contents carefully; some
 
 ````
 
+* * * * *
+
+
 ![Pip MisMatch Fail](../images/pip-mismatch-fail.png)
 
 
 Using the `--no-cache-dir` flag will often fix this. 
 
-But it's probably better to simply use `virtualenv`. 
+But it's probably better to simply use `virtualenv`. [This guide](https://docs.python-guide.org/dev/virtualenvs/#lower-level-virtualenv) can be helpful for that.
