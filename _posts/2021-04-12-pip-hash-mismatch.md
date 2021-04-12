@@ -2,7 +2,6 @@
 layout: post
 title: pip hash mismatches
 ---
-# PIP Hash Mismatches
 
 On occasion I've run into an issue where pip complains about hash mismatches. As seen below.  
 
