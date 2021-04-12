@@ -3,6 +3,8 @@ layout: post
 title: FIXED: Kali 2020.2 OVA VIRTUALBOX - HASH SUM MISMATCH
 ---
 
+# FIXED: Kali 2020.2 OVA VIRTUALBOX - HASH SUM MISMATCH
+
 This fixes an issue with apt in Kali. 
 
 ```
