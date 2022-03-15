@@ -30,7 +30,7 @@ Taking a look around, not much of the site appears functional. The resume downlo
 
 A GoBuster search, produces both  `/assets` and `/blog` directories. 
 
-![[../images/pg/pg-monster/Pasted image 20220312140854.png]]
+![[../images/pg/pg-monster/Pasted-image-20220312140854.png]]
 
 Navigating to the `/blog` page we find that the we're unable to proceed because we'll need to add `monster.pg` to our `/etc/hosts` file. 
 
@@ -38,7 +38,7 @@ After doing so we can visit the blog and begin our enumeration.
 
 ## Blog
 
-![[../images/pg/pg-monster/Pasted image 20220312141129.png]]
+![[../images/pg/pg-monster/Pasted-image-20220312141129.png]]
 
 Just to have some enumeration running in the background, I start another GoBuster search on the `/blog` directory. 
 
@@ -56,11 +56,11 @@ So we can see that we'll likely need to get on the site somehow, and currently, 
 
 Listed under under `http://monster.pg/blog/users` we find some information about users. 
 
-![[../images/pg/pg-monster/Pasted image 20220315104841.png]]
+![[../images/pg/pg-monster/Pasted-image-20220315104841.png]]
 
-![[../images/pg/pg-monster/Pasted image 20220315104920.png]]
+![[../images/pg/pg-monster/Pasted-image-20220315104920.png]]
 
-![[../images/pg/pg-monster/Pasted image 20220315104934.png]]
+![[../images/pg/pg-monster/Pasted-image-20220315104934.png]]
 
 Having noted, this when we visit the login page, we'll have a few more combinations of users to try. 
 
@@ -74,7 +74,7 @@ No, the easiest path is going to be to sit back and enumerate further.
 
 ## Site Backup
 
-![[../images/pg/pg-monster/Pasted image 20220315110322.png]]
+![[../images/pg/pg-monster/Pasted-image-20220315110322.png]]
 
 
 Walking the application, we'll find that we have the ability to download a back up of the site. We'll create a backup, download it and unzip it and find that there are *a lot* of files here. 
