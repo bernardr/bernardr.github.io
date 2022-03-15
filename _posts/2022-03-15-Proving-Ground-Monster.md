@@ -14,7 +14,7 @@ After running an initial nmap scan, (something as simple as `nmap -p- $target`) 
 
 Taking a look at the http services running on the host, we can see that there's a lot of similarity between the the two services, so for now, we can assume they're the same and visit the http site. 
 
-![[(../images/pg/pg-monster/Pasted image 20220312135854.png]]
+![[(../images/pg/pg-monster/'Pasted image 20220312135854.png']]
 
 Before moving too far ahead, it was important for me log into the https site and take a look around. It's also a good idea to take a look at the SSL certificate the site issues and seek out subdomains that the cert may also be valid for. 
 
