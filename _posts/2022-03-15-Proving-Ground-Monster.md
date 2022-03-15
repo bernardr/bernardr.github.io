@@ -4,8 +4,6 @@ title: Proving Grounds-Monster (Part 0)
 ---
 
 
-# Proving Grounds: Monster (Part 0) 
-
 Monster is a cute litte box, that doesn't really have much of a *monster* angle, to it. Though, that's part of the charm, I think. Some good old enumeration will get you through to a shell. 
 
 ## Enumeration 
@@ -16,7 +14,7 @@ After running an initial `nmap` scan, (something as simple as `nmap -p- $target`
 
 Taking a look at the http services running on the host, we can see there are a lot of similarities between the the two services, so for now, we can assume they're the same and visit the http site. 
 
-![nmap scan info](../images/pg/pg-monster/Pasted-image-20220312135854.png)
+![](../images/pg/pg-monster/Pasted-image-20220312135854.png)
 
 Before moving too far ahead, it was important for me log into the https site and take a look around. It's also a good idea to take a look at the SSL certificate the site issues and seek out subdomains that the cert may also be valid for. 
 
@@ -24,7 +22,7 @@ Neither turns up anything, but gives me a good feeling knowing I checked.
 
 ## Mike's Page 
 
-![mike's super cool site](../images/pg/pg-monster/Pasted-image-20220312140512.png)
+![](../images/pg/pg-monster/Pasted-image-20220312140512.png)
 
 The site belongs to Monster's Inc. character Mike Wazowski. 
 
