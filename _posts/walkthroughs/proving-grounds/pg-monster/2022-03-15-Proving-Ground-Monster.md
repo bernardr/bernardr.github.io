@@ -5,8 +5,6 @@ tags: proving_grounds, oscp
 ---
 
 
-# Proving Grounds: Monster (Part 0) 
-
 Monster is a cute litte box, that doesn't really have much of a *monster* angle, to it. Though, that's part of the charm, I think. Some good old enumeration will get you through to a shell. 
 
 ## Enumeration 
