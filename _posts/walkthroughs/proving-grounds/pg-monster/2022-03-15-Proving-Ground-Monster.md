@@ -33,7 +33,7 @@ Taking a look around, not much of the site appears functional. The resume downlo
 
 A GoBuster search, produces both  `/assets` and `/blog` directories. 
 
-![](../images/pg/pg-monster/Pasted-image-20220312140854.png)
+![](/images/pg/pg-monster/Pasted-image-20220312140854.png)
 
 Navigating to the `/blog` page we find that the we're unable to proceed because we'll need to add `monster.pg` to our `/etc/hosts` file. 
 
