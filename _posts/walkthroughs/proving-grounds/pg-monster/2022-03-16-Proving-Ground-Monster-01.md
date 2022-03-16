@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Proving Grounds-Monster (Part 1)
+tags: 
 ---
 
 ###  Previously on...
@@ -36,7 +37,7 @@ Salts should be random, but its worth [checking the source](https://github.com/m
 
 ![](/images/pg/pg-monster/Pasted-image-20220315110322.png)
 
-https://github.com/monstra-cms/monstra/blob/1ff51860eaba83e8ab91d5deb1d6b157e0847455/engine/boot/defines.php#L66
+[Line 66 of the source.](https://github.com/monstra-cms/monstra/blob/1ff51860eaba83e8ab91d5deb1d6b157e0847455/engine/boot/defines.php#L66)
 
 Googling around would also have helped us, as it would have turned up this [HacktheBox CTF write-up](https://simpleinfoseccom.wordpress.com/2018/05/27/monstra-cms-3-0-4-unauthenticated-user-credential-exposure/). 
 
@@ -48,7 +49,8 @@ MATT0177, says it well, when describing the use case for mdxfind:
 
 > Most password cracking programs require three things. A list of the hashes you want to crack, the algorithm that they’re in and a dictionary that you would like to use for your attempts. 
 > MDXFIND is for when you have hashes and a dictionary, but you’re not sure what format the hashes are in. 
->  [source: www.digitalforensicstips.com](https://www.digitalforensicstips.com/2019/10/a-quick-look-at-mdxfind.html)
+>
+>  source:[www.digitalforensicstips.com](https://www.digitalforensicstips.com/2019/10/a-quick-look-at-mdxfind.html)
 	
 You can grab a copy of mdxfind at https://hashes.org/mdxfind.php. 
 

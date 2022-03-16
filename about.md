@@ -4,9 +4,12 @@ title: About
 ---
 
 <p class="message">
-	This is still a work in progress. Check back soon ... 
+	Hi there! I'm Bernard, and I work as an Information Security professional. I'm writing about modern penetration testing best practices, CTF walkthroughs, secure communications and application hardening. 
+
 </p>
+<p class="message">
+If you like the stuff you see, I'd really love to hear from you! Please feel free to send me an email at <code>hey.bernard</code>. I'm using <code>gmail.com</code>. 
 
-Hi  there, I'm Bernard and I'm an information technology worker with a strong interest in penetration testing, secure communications and application hardening. 
-
+Or if you'd like you can buy me a cup of coffee. 
+</p>
 
