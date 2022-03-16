@@ -4,6 +4,8 @@ title: Proving Grounds-Monster (Part 0)
 ---
 
 
+# Proving Grounds: Monster (Part 0) 
+
 Monster is a cute litte box, that doesn't really have much of a *monster* angle, to it. Though, that's part of the charm, I think. Some good old enumeration will get you through to a shell. 
 
 ## Enumeration 
@@ -14,7 +16,7 @@ After running an initial `nmap` scan, (something as simple as `nmap -p- $target`
 
 Taking a look at the http services running on the host, we can see there are a lot of similarities between the the two services, so for now, we can assume they're the same and visit the http site. 
 
-![](../images/pg/pg-monster/Pasted-image-20220312135854.png)
+![nmap scan info](../img/Pasted-image-20220312135854.png)
 
 Before moving too far ahead, it was important for me log into the https site and take a look around. It's also a good idea to take a look at the SSL certificate the site issues and seek out subdomains that the cert may also be valid for. 
 
@@ -22,7 +24,7 @@ Neither turns up anything, but gives me a good feeling knowing I checked.
 
 ## Mike's Page 
 
-![](../images/pg/pg-monster/Pasted-image-20220312140512.png)
+![mike's super cool site](../images/pg/pg-monster/Pasted-image-20220312140512.png)
 
 The site belongs to Monster's Inc. character Mike Wazowski. 
 
@@ -118,6 +120,4 @@ We find some interesting hashes.
 And this is where we'll leave it for now, in the next post we'll discuss the best way to crack these hashes and get a shell on the box. 
 
 
-
-<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="displayerror" data-color="#FFDD00" data-emoji="" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
 
