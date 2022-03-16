@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Proving Grounds-Monster (Part 0)
+tags: proving_grounds, oscp
 ---
 
 
@@ -17,10 +18,9 @@ After running an initial `nmap` scan, (something as simple as `nmap -p- $target`
 Taking a look at the http services running on the host, we can see there are a lot of similarities between the the two services, so for now, we can assume they're the same and visit the http site. 
 
 
-<img src="/images/Pasted-image-20220312135854.png">
+![nmap scan info](/images/pg/pg-monster/Pasted-image-20220312135854.png)
 
 
-![nmap scan info](../img/)
 
 Before moving too far ahead, it was important for me log into the https site and take a look around. It's also a good idea to take a look at the SSL certificate the site issues and seek out subdomains that the cert may also be valid for. 
 
@@ -28,7 +28,7 @@ Neither turns up anything, but gives me a good feeling knowing I checked.
 
 ## Mike's Page 
 
-![mike's super cool site](../images/pg/pg-monster/Pasted-image-20220312140512.png)
+![mike's super cool site](/images/pg/pg-monster/Pasted-image-20220312140512.png)
 
 The site belongs to Monster's Inc. character Mike Wazowski. 
 
@@ -38,7 +38,7 @@ Taking a look around, not much of the site appears functional. The resume downlo
 
 A GoBuster search, produces both  `/assets` and `/blog` directories. 
 
-![](../images/pg/pg-monster/Pasted-image-20220312140854.png)
+![](/images/pg/pg-monster/Pasted-image-20220312140854.png)
 
 Navigating to the `/blog` page we find that the we're unable to proceed because we'll need to add `monster.pg` to our `/etc/hosts` file. 
 
@@ -46,7 +46,7 @@ After doing so we can visit the blog and begin our enumeration.
 
 ## Blog
 
-![](../images/pg/pg-monster/Pasted-image-20220312141129.png)
+![](/images/pg/pg-monster/Pasted-image-20220312141129.png)
 
 Just to have some enumeration running in the background, I start another GoBuster search on the `/blog` directory. 
 
@@ -64,11 +64,11 @@ We won't get attached to it, but we can now start to forumlate a hypothesis whic
 
 Listed under under `http://monster.pg/blog/users` we find some information about users. 
 
-![](../images/pg/pg-monster/Pasted-image-20220315104841.png)
+![](/images/pg/pg-monster/Pasted-image-20220315104841.png)
 
-![](../images/pg/pg-monster/Pasted-image-20220315104920.png)
+![](/images/pg/pg-monster/Pasted-image-20220315104920.png)
 
-![](../images/pg/pg-monster/Pasted-image-20220315104934.png)
+![](/images/pg/pg-monster/Pasted-image-20220315104934.png)
 
 This is great! And we'll note it down, as these will be the key to cracking the login problem.
 
@@ -84,7 +84,7 @@ No, the easiest path is going to be to sit back and enumerate further.
 
 ## Abusing Site Features/Functionality: Site Backup
 
-![](../images/pg/pg-monster/Pasted-image-20220315110322.png)
+![](/images/pg/pg-monster/Pasted-image-20220315110322.png)
 
 
 Walking the application, we'll find that we have the ability to download a back up of the site. We'll create a backup, download it and unzip it and find that there are *a lot* of files here. 
