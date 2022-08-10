@@ -224,7 +224,7 @@ Here, we're passing an empty array. Like in the slides from the OWASP talk, we'r
 
 We send off the request and ....
 
-![[/images/pg/pg-lunar/Pasted-image-20220810144533.png]]
+![](/images/pg/pg-lunar/Pasted-image-20220810144533.png)
 
 We get a  status code`302` redirecting us to `dashboard.php`.
 
