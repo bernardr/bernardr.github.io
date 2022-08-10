@@ -4,6 +4,8 @@ title: Proving Grounds-Lunar
 tags: proving_grounds, oscp, php, source code analysis
 ---
 
+![](/images/pg/pg-lunar/moon.jpg)
+
 Lunar is an "intermediate" rated box on Offensive Security's "Proving Grounds: Practice" platform. 
 
 Offsec provides walkthroughs for their machines, but at times there are incongruities between what is stated and what works, I'd like to provide an alternative methodolgy to the provided the techniques. 
