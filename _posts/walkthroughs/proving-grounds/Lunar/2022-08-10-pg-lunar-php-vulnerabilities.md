@@ -121,7 +121,7 @@ pending.php
 We can take a look at the target site and our earlier enumeration and see that we're able to access the `login.php` page. 
 
 
-![[/images/pg/pg-lunar/Pasted image 20220810141734.png]]
+![[/images/pg/pg-lunar/Pasted-image-20220810141734.png]]
 
 Looking at the source for this page we can find the following: 
 
@@ -175,11 +175,11 @@ And it turns our that `strcmp` is a strange function due to the quirks of PHP's 
 
 If we take a look at the following slides from an OWASP talk titled ["PHP Magic Tricks: Type Juggling"][php-owasp-talk] (Page 34, 35, 36) we get a much better understanding of the dangers of the functions as well as its implementation here: 
 
-![[/images/pg/pg-lunar/Pasted image 20220810143608.png]]
+![[/images/pg/pg-lunar/Pasted-image-20220810143608.png]]
 
-![[/images/pg/pg-lunar/Pasted image 20220810143625.png]]
+![[/images/pg/pg-lunar/Pasted-image-20220810143625.png]]
 
-![[/images/pg/pg-lunar/Pasted image 20220810143647.png]]
+![[/images/pg/pg-lunar/Pasted-image-20220810143647.png]]
 
 
 Looking at our source code snippet again: 
@@ -224,7 +224,7 @@ Here, we're passing an empty array. Like in the slides from the OWASP talk, we'r
 
 We send off the request and ....
 
-![[/images/pg/pg-lunar/Pasted image 20220810144533.png]]
+![[/images/pg/pg-lunar/Pasted-image-20220810144533.png]]
 
 We get a  status code`302` redirecting us to `dashboard.php`.
 
