@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Proving Grounds-Lunar (Part 1): PHP Vulnerabilities
+title: Proving Grounds-Lunar
 tags: proving_grounds, oscp, php, source code analysis
 ---
 
