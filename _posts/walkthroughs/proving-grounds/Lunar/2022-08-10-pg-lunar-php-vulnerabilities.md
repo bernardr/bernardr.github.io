@@ -8,7 +8,7 @@ tags: proving_grounds, oscp, php, source code analysis
 
 Lunar is an "intermediate" rated box on Offensive Security's "Proving Grounds: Practice" platform. 
 
-Offsec provides walkthroughs for their machines, but at times there are incongruities between what is stated and what works, I'd like to provide an alternative methodolgy to the provided the techniques. 
+Offsec provides walkthroughs for their machines, but at times there are incongruities between what is stated and what works, I'd like to provide an alternative methodolgy, and hopefully show off some simpler techniques. 
 
 Lunar highlights reading source-code and exploiting PHP vulnerabilities. 
 
@@ -65,11 +65,11 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 ## Enumeration HTTP - Discovering backup.zip 
 
-There are a number of ports open, but since a lot of web enumeration entails a lot of fuzzing of the site, we'll start get started. 
+There are a number of ports open, but since a lot of web enumeration entails a lot of fuzzing of the site, we'll get started with fuzzing first. 
 
-We can use a number of techniques to get to the next stage, which will be finding a zipped file of some of the sites key files. To find `backup.zip`. 
+We can use a number of techniques to get to the next stage, which will be finding an archive (`.zip`) file of some of the sites key files. 
 
-We can run `nikto` w/ the following: 
+To find `backup.zip`, we can run `nikto` w/ the following: 
 
 `nikto -h http://$target -o nikto.txt`
 
@@ -94,11 +94,11 @@ and get the following output:
 
 ```
 
-We can also find it using find it using `dirsearch` or `gobuster` , here's the output from the following `dirsearch`
+We can also find the `.zip` using `dirsearch` or `gobuster` , here's my `dirsearch` query:
 
 `#dirsearch.py -u $target -e html,php,txt,sh,zip -t 20 -r -f -x 400,401,404`
 
-output: 
+and its output: 
 
 ```
 200     1MB  http://192.168.178.216/backup.zip
@@ -108,9 +108,9 @@ Note that, `dirsearch` uses the `common.txt` wordlist found, on Kali installatio
 
 ## Extracting backup.zip and Reading Source
 
-Ok, that now that we've found our way to the `backup.zip` file, we'll extract it via whatever means worked best for you. I like using `7z e backup.zip`. 
+Ok, that now that we've found our way to the `backup.zip` file, we'll extract it via whatever means work best for you. I like using `7z e backup.zip`. 
 
-Once we've extracted our files we see we have a few `.php` files. 
+Once we've extracted our files, we'll find we have a few `.php` files. 
 
 ```
 completed.php
@@ -150,10 +150,10 @@ if ($_POST) {
 
 ```
 
-First off we find the dangerous include statement of `creds.php`, which will get referenced in a little bit. 
+The first thing we'll notice is the use of the `include` statement pointing to `creds.php`, which will get referenced in a little bit. 
 
 
-We'll take a look at the following `if` statement: 
+Next, we'll take a look at the following `if` statement: 
 
 ```
 if ($_POST['email'] && !empty($_POST['email']) && $_POST['email'] === 'liam@lunar.local' && strcmp($_POST['password'], $pwd) == 0)
