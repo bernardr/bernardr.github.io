@@ -1,20 +1,26 @@
 ---
 layout: post
 title: Linux Fundamentals course on HacktheBox Academy 
-tags: linux, cheatsheet, incident response
+tags: linux, HTB modules,
 ---
 
-I've been in the top 1% of TryHackMe's rankings for a little while. I've really learned a lot on the platform and would recommend it to others. 
+I've been in the top [1% of TryHackMe's rankings](https://tryhackme.com/p/displayerror) for a little while. I've really learned a lot on the platform and would recommend it to others. 
 
-I've noticed a great deal of posts about TryHackMe and HackTheBox, are hyper-centered on walkthroughs, and I've occasionally attempted to do the same. But, as man can note, these walkthroughs are generally the same, so I'd like to move away from this type of content for a little bit as I think it'll be more fun to write about my experiences with various "rooms" or "courses". 
+I feel I've needed a bit of change, so I plan boosting my HackTheBox ranking. 
+
+I've noticed a great deal of posts about TryHackMe and HackTheBox, are hyper-centered on walkthroughs, and I've occasionally attempted to do the same. 
+
+The downside of walkthroughs is they're generally very similar, so I'd like to move away from this type of content for a little bit, or at least augment my approach and write more about my thoughts about the design of the machines, learning processes, cheat sheets and in a larger sense; try harder to set these walkthroughs apart. 
 
 ## The Course 
 
 Generally, I feel HTB is providing some of the best training for infosec professionals. 
 
-While taking the course I felt I wasn't a Linux Beginner, but I still really enjoyed it. My experience with linux has been that of a hacker who's read a lot of man pages and built systems and fiddled with *nix for over a decade. 
+I'm not a Linux beginner, but I really enjoyed [HTB's Linux Fundamentals course](https://academy.hackthebox.com/course/preview/linux-fundamentals). 
 
-That said, the course covers a lot of topics, albeit briefly. 
+My experience with linux has been that of a hacker who's read a lot of `man` pages, built systems, fiddled with \*nix for over a decade. I feel comfortable with ELF binaries and navigating around a \*nix file system. So, I had a lot of this knowledge from just using Linux, but its really nice to have things laid out like this. 
+
+That said, the course zoom through a lot of topics, albeit briefly. 
 
 There isn't a "hacker" focus in the course, it truly is a fundamentals course. So while, I was mostly able to get it done in a few hours, what made it fun were the cheat sheets provided, as well as the challenges at the end of each chapter. 
 
