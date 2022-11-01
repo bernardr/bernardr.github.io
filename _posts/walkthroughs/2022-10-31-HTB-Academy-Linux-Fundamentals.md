@@ -4,6 +4,8 @@ title: Linux Fundamentals course on HacktheBox Academy
 tags: linux, HTB modules,
 ---
 
+![](/images/hackthebox/linux_fundamentals/linux_fundamentals.png)
+
 I've been in the top [1% of TryHackMe's rankings](https://tryhackme.com/p/displayerror) for a little while. I've really learned a lot on the platform and would recommend it to others. 
 
 I feel I've needed a bit of change, so I plan boosting my HackTheBox ranking. 
@@ -36,6 +38,12 @@ This isn't the most fun, but it is really cool to get started on the platform fo
 
 My overall ranking on HTB is currently kinda low, due to me not being on the platform very much, but I'd recommend this module for beginners as well as those looking to get a good refresher and possibly some great avenues for more research. 
 
+* * * * 
 
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="displayerror" data-description="Support me on Buy me a coffee!" data-message="Thanks for taking the time to visit ! If you liked this, please consider buying me a cup of coffee. " data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+If this post was helpful for you please feel free to reach out, or consider buying me a coffee.
+
+Thanks - happy hacking!
+
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="displayerror" data-color="#FFDD00" data-emoji="" data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+
 
