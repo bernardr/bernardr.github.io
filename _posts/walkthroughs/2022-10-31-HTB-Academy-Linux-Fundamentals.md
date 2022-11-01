@@ -37,3 +37,5 @@ This isn't the most fun, but it is really cool to get started on the platform fo
 My overall ranking on HTB is currently kinda low, due to me not being on the platform very much, but I'd recommend this module for beginners as well as those looking to get a good refresher and possibly some great avenues for more research. 
 
 
+<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="displayerror" data-description="Support me on Buy me a coffee!" data-message="Thanks for taking the time to visit ! If you liked this, please consider buying me a cup of coffee. " data-color="#40DCA5" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
