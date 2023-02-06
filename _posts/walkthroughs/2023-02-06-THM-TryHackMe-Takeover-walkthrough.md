@@ -1,6 +1,6 @@
 ---
-layout: post
-title: TryHackMe Walkthrough: Takeover 
+layout: post  
+title: TryHackMe Walkthrough Takeover 
 tags: ffuf, apache, subdomain fuzzing, TLS, SSL 
 ---
 
