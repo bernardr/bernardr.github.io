@@ -6,6 +6,8 @@ tags: ffuf, apache, subdomain fuzzing, TLS, SSL
 
 Takeover is an easy rated box on the TryHackMe platform. The challenge was created by some THM all-stars: [JohnHammond](https://tryhackme.com/p/JohnHammond), [cmnatic](https://tryhackme.com/p/cmnatic), [fumenoid](https://tryhackme.com/p/fumenoid) and [timtaylor](https://tryhackme.com/p/timtaylor). 
 
+You can play Takeover by visiting the following link: https://tryhackme.com/room/takeover
+
 ## Background 
 
 The description reminds us to add the machine IP and domain target to our `/etc/hosts` file. 
