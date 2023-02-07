@@ -25,7 +25,6 @@ title: Certifications and Personal Achievements
 - [File Inclusion](https://academy.hackthebox.com/achievement/140158/23)
 - [Introduction to Web Applications](https://academy.hackthebox.com/achievement/140158/75)
 - [Learning Processes](https://academy.hackthebox.com/achievement/140158/9)
-- [SQL Injection Injection Fundamental](https://academy.hackthebox.com/achievement/140158/9)
 - [Introduction to SQL Injections](https://academy.hackthebox.com/achievement/140158/74)
 - [Attacking Web Applications with ffuf](https://academy.hackthebox.com/module/complete/54)
 - [Linux Fundamentals](https://academy.hackthebox.com/achievement/140158/18)
