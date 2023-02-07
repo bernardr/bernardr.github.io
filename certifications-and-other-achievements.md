@@ -22,6 +22,7 @@ title: Certifications and Personal Achievements
 
 ## HacktheBox Academy Modules 
 
+- [File Inclusion](https://academy.hackthebox.com/achievement/140158/23)
 - [Introduction to Web Applications](https://academy.hackthebox.com/achievement/140158/75)
 - [Learning Processes](https://academy.hackthebox.com/achievement/140158/9)
 - [SQL Injection Injection Fundamental](https://academy.hackthebox.com/achievement/140158/9)
