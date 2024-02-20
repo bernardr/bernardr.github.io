@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Customized Cover Letter Generator</title>
+</head>
+<body>
+
+<!-- Input fields for the user -->
+<label for="input1">Input 1:</label>
+<input type="text" id="input1"><br>
+<label for="input2">Input 2:</label>
+<input type="text" id="input2"><br>
+
+<!-- Button to trigger the generation of the cover letter -->
+<button onclick="generateCoverLetter()">Generate Cover Letter</button>
+
+<!-- Container to display the generated cover letter -->
+<p id="generatedCoverLetter"></p>
+<p id="currentDate"></p>
+<script>
+function generateCoverLetter() {
+  // Get the values from the input fields
+  var input1 = document.getElementById("input1").value;
+  var input2 = document.getElementById("input2").value;
+
+  var currentDate = new Date().toLocaleDateString();
+  // Generate the cover letter text using the input values
+  var coverLetter = `<b>Grace Rodriguez<br>
+555-555-0166<br>
+rdrgz@gmail.com<br><br></b>
+
+	Dear Hiring Manager,<br><br>
+
+	My name is Grace Rodriguez, and I'm writing to express my interest in the ${input1} position at ${input2}. <br><br>
+
+	Due to my skills and experience in data entry, organization and confidentiality, I believe I could be an asset to your organization. As a professional with over five years of experience in administrative and clerical support work.<br><br>
+
+	I'm ready to organize documents and data accurately and efficiently for your health care team. As an Administrative Assistant for Jebley Dental, I scanned and filed confidential documents and organized electronic files daily while adhering to strict organizational requirements and protocols. I also audited documents on a weekly basis to verify accuracy and ensure comprehensive record-keeping practices.<br><br> 
+
+	Along with performing accurate data entry into the internal data management system, I also maintained compliance retention. After honing my skills in communication with fellow staff members and patients and technical skills in relevant software.<br><br>
+
+	I feel I'm ready to fulfill the obligations of a File Clerk at Tree Health Care.Thank you for your time and consideration. I hope to discuss my candidacy further with you, as I believe my passion for accuracy and efficiency in health care could add great value to your organization.<br><br> 
+
+	I look forward to hearing from you soon. Please don't hesitate to contact me if you have questions about my application. Thank you, again.<br><br>
+
+
+	Sincerely,<br>
+	Grace Rodriguez`;
+
+  // Display the generated cover letter
+  document.getElementById("generatedCoverLetter").innerHTML = coverLetter;
+}
+</script>
+
+</body>
+</html>
